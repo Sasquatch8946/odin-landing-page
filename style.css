@@ -109,6 +109,9 @@ ul {
 }
 
 .caption {
+    /*TODO: make it so that the start of the text begins on the left
+    but the end is centered. I wonder if it just has to do with the
+    width of the caption.*/
     text-align: center;
     width: 150px;
 }
