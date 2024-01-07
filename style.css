@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
 .top {
     background-color: #1F2937;
     padding-top: 16px;
@@ -60,11 +66,55 @@ ul {
 .button {
     width: 90px;
     background-color: #3882F6;
-    border-radius: 25px;
+    border-radius: 15px;
     border: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 16px;
 }
 
 .secondarytext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.rando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.rando-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-top: 32px;
+}
+
+.square {
+    border: solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-top: 32px;
+    /* outline: solid firebrick 10px; */
+    gap: 32px;
+}
+
+.caption {
+    text-align: center;
+    width: 150px;
+}
+
+.card {
+    /* outline: solid firebrick 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
 }
