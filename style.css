@@ -156,7 +156,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .cta-wrapper {
@@ -166,6 +166,7 @@ figcaption {
     gap: 15px;
     width: 800px;
     justify-content: space-between;
+    border-radius: 10px;
 }
 
 .cta-header {
@@ -185,4 +186,17 @@ figcaption {
     border-radius: 10px;
     width: 160px;
     border-style: solid;
+}
+
+.footer {
+    padding: 50px 300px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 24px;
 }
