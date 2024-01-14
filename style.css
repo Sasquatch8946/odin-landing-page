@@ -129,7 +129,7 @@ ul {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 50px 300px;
+    padding: 100px 300px;
     /* outline: 10px solid firebrick; */
 }
 
@@ -138,6 +138,8 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 0;
+    margin-left: 70px;
+    padding: 0;
 }
 
 figcaption {
