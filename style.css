@@ -44,6 +44,7 @@ ul {
 
 .header {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .summary {
@@ -128,9 +129,7 @@ ul {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding-left: 300px; 
-    padding-right: 300px;
-    padding-bottom: 50px;
+    padding: 50px 300px;
     /* outline: 10px solid firebrick; */
 }
 
@@ -138,11 +137,15 @@ ul {
     /* outline: 10px solid firebrick; */
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 figcaption {
     margin-left: auto;
+    margin-right: 120px;
     /* outline: 10px solid firebrick; */
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 .quote {
@@ -150,6 +153,7 @@ figcaption {
     font-style: light italic;
     color: #1F2937;
     /* outline: 10px solid firebrick; */
+    margin: 0;
 }
 
 .call-to-action {
@@ -162,9 +166,9 @@ figcaption {
 .cta-wrapper {
     display: flex;
     background-color: #3882F6;
-    padding: 50px;
+    padding: 50px 100px;
     gap: 15px;
-    width: 800px;
+    width: 1000px;
     justify-content: space-between;
     border-radius: 10px;
 }
@@ -198,5 +202,5 @@ figcaption {
 
 .copyright {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 18px;
 }
